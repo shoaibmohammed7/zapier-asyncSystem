@@ -41,6 +41,73 @@ The project follows a well-structured architecture that integrates multiple comp
 - **GitHub Hooks**: Supports webhook integration for triggering actions on GitHub updates.
 - **Error Tolerance**: Outbox patterns ensure data reliability even when downstream services fail.
 
----
+
 
 This system is designed to ensure efficient, scalable, and reliable asynchronous processing of events, leveraging modern technologies and best practices.
+
+---
+
+## Setup and Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <https://github.com/shoaibmohammed7/zapier-asyncSystem>
+   cd zapier-asyncsystem
+
+2.Install dependencies for all components:
+
+  ```bash
+  cd worker
+  npm install
+
+  cd ../processor
+  npm install
+
+  cd ../primary-backend
+  npm install
+
+  cd ../hooks
+  npm install
+
+  cd ../frontend
+  npm install
+  ```
+
+3. Running all the processors locally
+
+   ```bash
+    cd worker
+    npm run dev
+
+   cd primary-backend
+    npm run dev
+
+    cd  hooks
+    npm run dev
+
+    cd processor
+    npm run dev
+
+    cd frontend
+    npm run dev
+
+          ```
+4.Access the application in your browser at http://localhost:3000
+
+---
+##Scripts
+Worker, Processor, Primary Backend, and Hooks
+npm run dev: Builds and starts the service in development mode.
+
+---
+
+##Frontend
+
+npm run dev: Starts the development server.
+npm run build: Builds the frontend for production.
+npm run start: Starts the production server.
+npm run lint: Lints the codebase.
+
+
+
