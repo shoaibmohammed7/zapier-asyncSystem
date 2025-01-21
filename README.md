@@ -47,7 +47,7 @@ This system is designed to ensure efficient, scalable, and reliable asynchronous
 
 ---
 
-## Setup and Installation
+## Run Locally. Setup and Installation
 
 1. Clone the repository:
 
